@@ -26,4 +26,4 @@ df['text'] = df['text'].apply(translate_to_english)
 
 # Save the translated data to a new CSV file
 df.to_csv('submission_data.csv', index=False)
-print("Translation completed! Saved to 'translated_tweets.csv'.")
+print("Translation completed! Saved to 'submission_data.csv'.")
