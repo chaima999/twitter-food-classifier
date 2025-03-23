@@ -12,7 +12,7 @@ translator = GoogleTranslator(source='auto', target='en')
 def translate_to_english(text):
     try:
         # Add a delay to avoid being blocked (1 second delay per request)
-        time.sleep(0.5)
+        time.sleep(1)
         # Translate the text
         translation = translator.translate(text)
         return translation
